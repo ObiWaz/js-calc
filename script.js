@@ -1,6 +1,6 @@
-let numA = Number(prompt("Number A?"));
-let numB = Number(prompt("Number B?"));
-let operator = prompt("Operator");
+// let numA = Number(prompt("Number A?"));
+// let numB = Number(prompt("Number B?"));
+// let operator = prompt("Operator");
 
 //Operate function
 function operate(a, b, op) {
@@ -14,7 +14,7 @@ function operate(a, b, op) {
     return divide(a, b);
   }
 }
-console.log(operate(numA, numB, operator));
+// console.log(operate(numA, numB, operator));
 
 //Math functions
 function add(a, b) {
